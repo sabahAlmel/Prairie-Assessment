@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+}
+main {
+  margin: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+form {
+  width: 40%;
+  margin: 0 5%;
+  align-self: center;
+}
+form h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+form p:first-of-type {
+  color: #667085;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+form div:not(.remember, .container, .forget) {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+form div label {
+  margin-bottom: 10px;
+}
+form div input {
+  padding: 5px;
+  font-size: 0.9rem;
+  border-radius: 3px;
+  border-color: #667085;
+  outline: none;
+}
+form .container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+form .forget p {
+  margin: 0;
+  color: #5429ff;
+}
+form button {
+  border: none;
+  padding: 8px;
+  font-size: 0.9rem;
+  color: #344054;
+  background-color: white;
+  border-radius: 6px;
+}
+form button:last-of-type {
+  border: 1px solid #344054;
+}
+form button:first-of-type {
+  background-color: #5429ff;
+  margin-bottom: 10px;
+  color: white;
+}
+form .account {
+  align-items: center;
+}
+form .account span {
+  color: #5429ff;
+}
+/* image */
+section {
+  width: 60%;
+  height: 95vh;
+}
+section img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
