@@ -42,6 +42,7 @@ C. State, Prop Components.
 D. Singular, Multiple Components.
 
 Answer:
+a
 
 ---
 
